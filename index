@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Top Priorities</h2>
+        <ol type="I">
+            <li>Improve User Experience</li>
+            <li>Enhance Security</li>
+            <li>Optimize Performance</li>
+            <li>Increase Accessibility</li>
+            <li>Promote Sustainability</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Our Inspiration</h2>
+        <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Inspiring Nature" width="600">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jane Joe</td>
+                    <td>123 Green St</td>
+                    <td>+254712345678</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>dreamchaser</td>
+                    <td>456 Blue Ave</td>
+                    <td>+254723456789</td>
+                    <td>dream@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Rose</td>
+                    <td>789 Red Rd</td>
+                    <td>+254734567890</td>
+                    <td>emily@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mark N.</td>
+                    <td>321 Sunset Blvd</td>
+                    <td>+254745678901</td>
+                    <td>mark@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice K.</td>
+                    <td>159 Ocean Way</td>
+                    <td>+254756789012</td>
+                    <td>alice@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register Here</h2>
+        <form action="/submit" method="post">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="role">Choose your role:</label><br>
+            <select id="role" name="role" required>
+                <option value="">--Select--</option>
+                <option value="student">Student</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Manager</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Subscribe to:</label><br>
+            <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+            <label for="newsletter">Newsletter</label><br>
+
+            <input type="checkbox" id="updates" name="subscribe" value="updates">
+            <label for="updates">Product Updates</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at <a href="mailto:support@example.com">support@example.com</a></p>
+        <p>&copy; 2025 myWebsite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!-- End of HTML Document -->
